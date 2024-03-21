@@ -1,0 +1,34 @@
+<link rel="stylesheet" href="../../../src/assets/style.css">
+
+<h1 class="titulo">PAGINA PRINCIPAL</h1>
+
+<div class="container">
+
+    <div class="row">
+        <div class="col-4">
+        </div>
+
+        <div class="col-4">
+            <form action="005-ejemplo-atributo-required-html5.php" method="POST">
+                <div class="mb-3">
+                    <label for="nombre" class="form-label">Nombre y Apellido</label>
+                    <input type="text" class="form-control" id="nombre" placeholder="Ingrese su nombre" required>
+                </div>
+                <div class="mb-3">
+                    <label for="mail" class="form-label">Email</label>
+                    <input type="email" class="form-control" id="mail" placeholder="name@example.com" required>
+                </div>
+                <div class="mb-3">
+                    <label for="comentario" class="form-label">Comentario</label>
+                    <textarea class="form-control comentario" id="comentario" rows="3" required></textarea>
+                </div>
+
+                <input class="btn btn-success" type="submit" value="Enviar" />
+            </form>
+        </div>
+
+        <div class="col-4">
+        </div>
+    </div>
+
+</div>
